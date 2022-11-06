@@ -13,7 +13,7 @@ namespace DailyLeetcode.Solutions.Sorting.Algorithms;
 
 public static class SelectionSort
 {
-    public static void Sort(this int[] array)
+    public static void SortWithSelectionSort(this int[] array)
     {
         for(int i = 0; i < array.Length; i++)
         {
