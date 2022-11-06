@@ -1,4 +1,6 @@
-﻿namespace DailyLeetcode.Solutions.Sorting.Algorithms;
+﻿using DailyLeetcode.Solutions.Extensions;
+
+namespace DailyLeetcode.Solutions.Sorting.Algorithms;
 
 /**
  * Start from 0 position
@@ -30,12 +32,5 @@ public static class SelectionSort
                 array.Swap(smallestElementIndex, i);
             }
         }
-    }
-
-    public static void Swap(this int[] array, int position1, int position2)
-    {
-        int temp = array[position1];
-        array[position1] = array[position2];
-        array[position2] = temp;
     }
 }
